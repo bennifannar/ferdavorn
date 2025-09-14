@@ -1,0 +1,20 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "id": "road-1", "name": "Vindstrengur A", "type": "road", "roadDirDeg": 90 },
+      "geometry": { "type": "LineString", "coordinates": [[-21.9, 64.1], [-21.2, 64.1]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "road-2", "name": "Vindstrengur B", "type": "road", "roadDirDeg": 30 },
+      "geometry": { "type": "LineString", "coordinates": [[-20.7, 63.95], [-20.2, 64.2]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "ford-1", "name": "Vöð Dæmi", "type": "ford" },
+      "geometry": { "type": "Point", "coordinates": [-20.8, 64.05] }
+    }
+  ]
+}
